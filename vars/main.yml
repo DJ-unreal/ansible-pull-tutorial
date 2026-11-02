@@ -9,9 +9,8 @@ ansible_pull_repo: "https://github.com/DJ-unreal/ansible-pull-tutorial.git"
 managed_service: ssh
 
 packages:
+  - git
   - curl
-  - tmux
-  - vim
   - wget
 
 system_timezone: Europe/Berlin
